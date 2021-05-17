@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`request user action test dispatches request user action 1`] = `
+Object {
+  "payload": undefined,
+  "type": "user/REQUEST_USER",
+}
+`;
+
+exports[`set user action test dispatches set user action 1`] = `
+Object {
+  "payload": Object {
+    "field1": "value1",
+  },
+  "type": "user/SET_USER",
+}
+`;
